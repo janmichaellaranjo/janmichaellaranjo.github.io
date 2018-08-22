@@ -1,16 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: A brief introduction of myself
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello, my name is Jan Michael Laranjo as you can tell from the title, but everyone calls me Jan. 
+I am undergraduate CS student at the ***University of Technologies Vienna*** working as a part time Computer programmer for ***MHE & Partners***. 
+In my spare time I spend my time with my beloved fiance. We like to travel and love food.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
