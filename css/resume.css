@@ -88,36 +88,186 @@ dd.clear {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	.fn {
+		width: 70%
+	}
+	dt {
+		text-align: right; 
+		width: 33%; 
+		height: 100px;
+	}
+	h2 {
+		width: 10%;
+		margin-left: 400px;
+	}
+	.contact {
+		width: 40%;
+	}
 	.information {
-		width: 50%
+		width: 40%;
+	}
+	.briefintroduction {
+		width: 40%;
+	}
+	.languages {
+		width: 20%;
+		margin-left: 400px;
+	}
+	.tools {
+		width: 40%;
+	}
+	.workdescription {
+		width: 40%;
+	}
+	.tasks ul li{
+		width: 40%;
+	}
+	.unidescription {
+		width: 40%;
+	}
+	.highschoolddescription {
+		width: 5%;
+	}
+	.hobbies {
+		width: 5%;
 	}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+	.contact {
+		width: 50%;
+	}
 	.information {
-		width: 78,125%
+		width: 50%;
+	}
+	.briefintroduction {
+		width: 30%;
+	}
+	.languages {
+		/*color: blue;*/
+		width: 30%;
+		/*margin-left: 400px;*/
+	}
+	.tools {
+		width: 50%;
+	}
+	.workdescription {
+		width: 50%;
+	}
+	.tasks ul li{
+		width: 50%;
+	}
+	.unidescription {
+		width: 20%;
+	}
+	.highschoolddescription {
+		width: 20%;
+	}
+	.hobbies {
+		width: 20%;
 	}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+	.contact {
+		width: 77.419%;
+	}
 	.information {
-		width: 100%
+		width: 77.419%;
+	}
+	.briefintroduction {
+		width: 77.419%;
+	}
+	.languages {
+		width: 77.419%;
+	}
+	.tools {
+		width: 77.419%;
+	}
+	.workdescription {
+		width: 77.419%;
+	}
+	.tasks ul li{
+		width: 77.419%;
+	}
+	.unidescription {
+		width: 77.419%;
+	}
+	.highschoolddescription {
+		width: 77.419%;
+	}
+	.hobbies {
+		width: 77.419%;
 	}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+	.contact {
+		width: 100%;
+	}
 	.information {
-		width: 120%
+		width: 100%;
+	}
+	.briefintroduction {
+		width: 100%;
+	}
+	.languages {
+		width: 100%;
+	}
+	.tools {
+		width: 100%;
+	}
+	.workdescription {
+		width: 100%;
+	}
+	.tasks ul li{
+		width: 100%;
+	}
+	.unidescription {
+		width: 100%;
+	}
+	.highschoolddescription {
+		width: 100%;
+	}
+	.hobbies {
+		width: 100%;
 	}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+	.contact {
+		width: 120%;
+	}
 	.information {
-		width: 120%
+		width: 120%;
+	}
+	.briefintroduction {
+		width: 120%;
+	}
+	.languages {
+		width: 120%;
+	}
+	.tools {
+		width: 120%;
+	}
+	.workdescription {
+		width: 120%;
+	}
+	.tasks ul li{
+		width: 120%;
+	}
+	.unidescription {
+		width: 120%;
+	}
+	.highschoolddescription {
+		width: 120%;
+	}
+	.hobbies {
+		width: 120%;
 	}
 }
 
