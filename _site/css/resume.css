@@ -101,8 +101,55 @@ dd.clear {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	#page-wrap {
+		width: 560px; 
+	}
+	h1 { 
+		font-size: 36px;
+	}
+	#pic { 
+		float: right; 
+		width: 27%;
+		height: 27%;
+	}
 	.fn {
 		width: 60%
+	}
+	dd {
+		float: right; 
+		width: 70%; 	
+	}
+	dt {
+		width:29%; 
+		text-align: left;
+	}
+	.contact {
+		width: 80%;
+	}
+	.briefintroduction {
+		width: 80%;
+	}
+	.information {
+		width: 86%;
+	}
+	.skills {
+		height: 150px;
+	}
+	.workexperience {
+		height: 210px;
+	}
+	.education {
+		height: 212px;
+	}
+	.hobbies {
+		height: 22px;
+	}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.fn {
+		width: 80%
 	}
 	dd {
 		float: right; 
@@ -132,37 +179,6 @@ dd.clear {
 	}
 	.hobbies {
 		height: 22px;
-	}
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-	.contact {
-		width: 50%;
-	}
-	.information {
-		width: 50%;
-	}
-	.briefintroduction {
-		width: 30%;
-	}
-	.languages {
-		width: 30%;
-	}
-	.tools {
-		width: 50%;
-	}
-	.workdescription {
-		width: 50%;
-	}
-	.tasks ul li{
-		width: 50%;
-	}
-	.unidescription {
-		width: 20%;
-	}
-	.highschoolddescription {
-		width: 20%;
 	}
 } 
 
