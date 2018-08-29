@@ -37,8 +37,9 @@ h2 span {
 	right: 0; 
 	font-style: italic; 
 	font-family: Georgia, Serif; 
-	font-size: 16px; color: #999; 
-	font-weight: normal; description
+	font-size: 16px; 
+	color: #999; 
+	font-weight: normal;
 }
 p { 
 	margin: 0 0 16px 0; 
@@ -75,7 +76,7 @@ dt {
 	border-right: 1px dotted #999;  
 }
 dd { 
-	width: 600px; 
+	width: 700px; 
 	float: right; 
 }
 dd.clear { 
@@ -86,50 +87,57 @@ dd.clear {
 .description {
 	margin: 0 0 6px 0;
 }
+.skills {
+	height: 122px;
+}
+.workexperience {
+	height: 137px;
+}
+.education {
+	height: 122px;
+}
+.hobbies {
+	height: 27px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.fn {
 		width: 70%
+	}
+	dd {
+		float: right; 
+		width: 60%; 	
 	}
 	dt {
 		text-align: right; 
 		width: 33%; 
 		height: 100px;
 	}
-	h2 {
-		width: 10%;
-		margin-left: 400px;
-	}
 	.contact {
-		width: 40%;
+		width: 60%;
 	}
 	.information {
-		width: 40%;
+		width: 60%;
 	}
 	.briefintroduction {
-		width: 40%;
+		width: 60%;
 	}
-	.languages {
-		width: 20%;
-		margin-left: 400px;
+	.skills {
+		height: 192px;
 	}
-	.tools {
-		width: 40%;
+	.workexperience {
+		height: 252px;
 	}
-	.workdescription {
-		width: 40%;
+	.mhe {
+		line-height: 1.5em;
+    		height: 3em;
+    		overflow: hidden;
 	}
-	.tasks ul li{
-		width: 40%;
-	}
-	.unidescription {
-		width: 40%;
-	}
-	.highschoolddescription {
-		width: 5%;
+	.education {
+		height: 212px;
 	}
 	.hobbies {
-		width: 5%;
+		height: 22px;
 	}
 } 
 
@@ -145,9 +153,7 @@ dd.clear {
 		width: 30%;
 	}
 	.languages {
-		/*color: blue;*/
 		width: 30%;
-		/*margin-left: 400px;*/
 	}
 	.tools {
 		width: 50%;
@@ -162,9 +168,6 @@ dd.clear {
 		width: 20%;
 	}
 	.highschoolddescription {
-		width: 20%;
-	}
-	.hobbies {
 		width: 20%;
 	}
 } 
@@ -198,9 +201,6 @@ dd.clear {
 	.highschoolddescription {
 		width: 77.419%;
 	}
-	.hobbies {
-		width: 77.419%;
-	}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -232,9 +232,6 @@ dd.clear {
 	.highschoolddescription {
 		width: 100%;
 	}
-	.hobbies {
-		width: 100%;
-	}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -264,9 +261,6 @@ dd.clear {
 		width: 120%;
 	}
 	.highschoolddescription {
-		width: 120%;
-	}
-	.hobbies {
 		width: 120%;
 	}
 }
