@@ -102,36 +102,30 @@ dd.clear {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.fn {
-		width: 70%
+		width: 60%
 	}
 	dd {
 		float: right; 
-		width: 60%; 	
+		width: 72%; 	
 	}
 	dt {
-		text-align: right; 
-		width: 33%; 
-		height: 100px;
+		width:24%; 
+		text-align: left;
 	}
 	.contact {
-		width: 60%;
+		width: 80%;
+	}
+	.briefintroduction {
+		width: 80%;
 	}
 	.information {
 		width: 60%;
 	}
-	.briefintroduction {
-		width: 60%;
-	}
 	.skills {
-		height: 192px;
+		height: 150px;
 	}
 	.workexperience {
-		height: 252px;
-	}
-	.mhe {
-		line-height: 1.5em;
-    		height: 3em;
-    		overflow: hidden;
+		height: 210px;
 	}
 	.education {
 		height: 212px;
