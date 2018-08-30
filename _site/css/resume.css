@@ -102,18 +102,30 @@ dd.clear {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	#page-wrap {
-		width: 400px; 
+		width: 300px; 
 	}
 	h1 { 
-		font-size: 36px;
+		font-size: 20px;
+	}
+	h2 { 
+		font-size: 13px;
+	}
+	h2 span { 
+		font-size: 13px;
 	}
 	#pic { 
 		float: right; 
 		width: 27%;
 		height: 27%;
 	}
+	p {
+		font-size: 12px;
+	}
+	ul li {
+		font-size: 12px;
+	}
 	.fn {
-		width: 60%;
+		width: 70%;
 	}
 	dd {
 		width: 70%; 	
@@ -126,22 +138,33 @@ dd.clear {
 		width: 80%;
 	}
 	.briefintroduction {
-		width: 80%;
+		width: 60%;
 	}
 	.information {
-		width: 87%;
+		width: 90%;
 	}
 	.skills {
+		font-size: 14px;
 		height: 150px;
 	}
 	.workexperience {
+		font-size: 14px;
 		height: 210px;
 	}
+	.mhe {
+		line-height: 1.1;
+    		height: 2.2em;
+	}
 	.education {
+		font-size: 14px;
 		height: 167px;
 	}
 	.hobbies {
+		font-size: 14px;
 		height: 27px;
+	}
+	.hobbies dd{
+		font-size: 14px;
 	}
 } 
 
