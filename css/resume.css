@@ -1,86 +1,86 @@
-* { 
-	margin: 0; 
-	padding: 0; 
+* {
+	margin: 0;
+	padding: 0;
 }
-body { 
-	font: 16px Helvetica, Sans-Serif; 
-	line-height: 24px; 
-	background: url(../img/noise.jpg); 
+body {
+	font: 16px Helvetica, Sans-Serif;
+	line-height: 24px;
+	background: url(../img/noise.jpg);
 }
-.clear { 
-	clear: both; 
+.clear {
+	clear: both;
 }
 #page-wrap {
-	width: 800px; 
-	margin: 40px auto 60px; 
+	width: 800px;
+	margin: 40px auto 60px;
 }
-#pic { 
-	float: right; 
-	margin: -30px 0 0 0; 
+#pic {
+	float: right;
+	margin: -30px 0 0 0;
 }
-h1 { 
-	margin: 0 0 16px 0; 
-	padding: 0 0 16px 0; 
-	font-size: 42px;  
-	font-weight: bold; 
-	letter-spacing: -2px; 
-	border-bottom: 1px dotted #999; 
+h1 {
+	margin: 0 0 16px 0;
+	padding: 0 0 16px 0;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: -2px;
+	border-bottom: 1px dotted #999;
 }
-h2 { 
+h2 {
 	font-size: 20px;
-	margin: 0 0 6px 0; 
-	position: relative; 
+	margin: 0 0 6px 0;
+	position: relative;
 }
-h2 span { 
-	position: absolute; 
-	bottom: 0; 
-	right: 0; 
-	font-style: italic; 
-	font-family: Georgia, Serif; 
-	font-size: 16px; 
-	color: #999; 
+h2 span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-style: italic;
+	font-family: Georgia, Serif;
+	font-size: 16px;
+	color: #999;
 	font-weight: normal;
 	display: inline-block;
 }
-p { 
-	margin: 0 0 16px 0; 
+p {
+	margin: 0 0 16px 0;
 }
-ul { 
-	margin: 0 0 32px 17px; 
+ul {
+	margin: 0 0 32px 17px;
 }
-#objective { 
-	width: 500px; 
-	float: left; 
+#objective {
+	width: 500px;
+	float: left;
 }
-#objective p { 
-	font-family: Georgia, Serif; 
-	font-style: italic; 
-	color: #666; 
+#objective p {
+	font-family: Georgia, Serif;
+	font-style: italic;
+	color: #666;
 }
-dt { 
-	font-style: italic; 
-	font-weight: bold; 
-	font-size: 18px; 
-	text-align: right; 
-	padding: 0 26px 0 0; 
-	width: 150px; 
-	float: left; 
-	height: 100px; 
-	/*border-right: 1px dotted #999;*/  
+dt {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	padding: 0 26px 0 0;
+	width: 150px;
+	float: left;
+	height: 100px;
+	border-right: 1px dotted #999;
 }
-dd { 
-	width: 700px; 
-	float: right; 
+dd {
+	width: 700px;
+	float: right;
 }
-dd.clear { 
-	float: none; 
-	margin: 0 0 0 0; 
-	height: 15px; 
+dd.clear {
+	float: none;
+	margin: 0 0 0 0;
+	height: 15px;
 }
-.email { 
-	color: #535353; 
-	text-decoration: none; 
-	border-bottom: 1px dotted #535353; 
+.email {
+	color: #535353;
+	text-decoration: none;
+	border-bottom: 1px dotted #535353;
 }
 .description {
 	margin: 0 0 6px 0;
@@ -91,33 +91,28 @@ dd.clear {
 .workexperience {
 	height: 137px;
 }
-.statcube { 
-	color: #535353; 
-	text-decoration: none; 
-	border-bottom: 1px dotted #535353; 
+.statcube {
+	color: #535353;
+	text-decoration: none;
+	border-bottom: 1px dotted #535353;
 }
-.education {
-	height: 122px;
-}
-.hobbies {
-	height: 27px;
-}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	#page-wrap {
-		width: 300px; 
+		width: 300px;
 	}
-	h1 { 
+	h1 {
 		font-size: 20px;
 	}
-	h2 { 
+	h2 {
 		font-size: 13px;
 	}
-	h2 span { 
+	h2 span {
 		font-size: 13px;
 	}
-	#pic { 
-		float: right; 
+	#pic {
+		float: right;
 		width: 27%;
 		height: 27%;
 	}
@@ -131,10 +126,10 @@ dd.clear {
 		width: 70%;
 	}
 	dd {
-		width: 70%; 	
+		width: 70%;
 	}
 	dt {
-		width:29%; 
+		width:29%;
 		text-align: left;
 	}
 	.contact {
@@ -166,27 +161,25 @@ dd.clear {
 		font-size: 14px;
 		height: 37px;
 	}
-	.hobbies dd{
-		font-size: 14px;
-	}
-} 
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px){
 	#page-wrap {
-		width: 400px; 
+		width: 400px;
 	}
-	h1 { 
+	h1 {
 		font-size: 21px;
 	}
-	h2 { 
+	h2 {
 		font-size: 13px;
 	}
-	h2 span { 
+	h2 span {
 		font-size: 14px;
 	}
-	#pic { 
-		float: right; 
+	#pic {
+		float: right;
 		width: 30%;
 		height: 30%;
 	}
@@ -200,10 +193,10 @@ dd.clear {
 		width: 70%;
 	}
 	dd {
-		width: 70%; 	
+		width: 70%;
 	}
 	dt {
-		width:29%; 
+		width:29%;
 		text-align: left;
 	}
 	.contact {
@@ -225,11 +218,11 @@ dd.clear {
 	}
 	.uni {
 		line-height: 1.1;
-    		height: 2.2em;
+    height: 2.2em;
 	}
 	.htl {
-        	line-height: 1.1;
-    		height: 2.2em;
+		line-height: 1.1;
+    height: 2.2em;
 	}
 	.education {
 		font-size: 14px;
@@ -239,24 +232,24 @@ dd.clear {
 		font-size: 14px;
 		height: 37px;
 	}
-	.hobbies dd{
+	.hobbies dd {
 		font-size: 14px;
 	}
-} 
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 	#page-wrap {
-		width: 700px; 
+		width: 700px;
 	}
 	.fn {
 		width: 100%;
 	}
 	dd {
-		width: 72%; 	
+		width: 72%;
 	}
 	dt {
-		width:24%; 
+		width:24%;
 		text-align: left;
 	}
 	.contact {
@@ -280,22 +273,22 @@ dd.clear {
 	.hobbies {
 		height: 27px;
 	}
-} 
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px){
 	#page-wrap {
-		width: 800px; 
+		width: 800px;
 	}
 	.fn {
 		width: 100%;
 	}
 	dd {
-		float: right; 
-		width: 72%; 	
+		float: right;
+		width: 72%;
 	}
 	dt {
-		width:24%; 
+		width:24%;
 		text-align: left;
 	}
 	.contact {
@@ -319,36 +312,43 @@ dd.clear {
 	.hobbies {
 		height: 27px;
 	}
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-	.contact {
-		width: 120%;
+	#page-wrap {
+		width: 800px;
 	}
-	.information {
-		width: 120%;
+	.fn {
+		width: 100%;
+	}
+	dd {
+		float: right;
+		width: 72%;
+	}
+	dt {
+		width:24%;
+		text-align: left;
+	}
+	.contact {
+		width: 100%;
 	}
 	.briefintroduction {
-		width: 120%;
+		width: 100%;
 	}
-	.languages {
-		width: 120%;
+	.information {
+		width: 100%;
 	}
-	.tools {
-		width: 120%;
+	.skills {
+		height: 150px;
 	}
-	.workdescription {
-		width: 120%;
+	.workexperience {
+		height: 162px;
 	}
-	.tasks ul li{
-		width: 120%;
+	.education {
+		height: 122px;
 	}
-	.unidescription {
-		width: 120%;
-	}
-	.highschoolddescription {
-		width: 120%;
+	.hobbies {
+		height: 27px;
 	}
 }
-
