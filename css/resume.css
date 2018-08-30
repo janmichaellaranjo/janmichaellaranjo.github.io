@@ -40,18 +40,11 @@ h2 span {
 	font-size: 16px; 
 	color: #999; 
 	font-weight: normal;
+	display: inline-block;
 }
 p { 
 	margin: 0 0 16px 0; 
 }
-a { 
-	color: #535353; 
-	text-decoration: none; 
-	border-bottom: 1px dotted #535353; 
-}
-a:hover { 
-	border-bottom-style: dotted; 
-	color: black; }
 ul { 
 	margin: 0 0 32px 17px; 
 }
@@ -73,7 +66,7 @@ dt {
 	width: 150px; 
 	float: left; 
 	height: 100px; 
-	border-right: 1px dotted #999;  
+	/*border-right: 1px dotted #999;*/  
 }
 dd { 
 	width: 700px; 
@@ -83,6 +76,11 @@ dd.clear {
 	float: none; 
 	margin: 0 0 0 0; 
 	height: 15px; 
+}
+.email { 
+	color: #535353; 
+	text-decoration: none; 
+	border-bottom: 1px dotted #535353; 
 }
 .description {
 	margin: 0 0 6px 0;
@@ -145,11 +143,11 @@ dd.clear {
 	}
 	.skills {
 		font-size: 14px;
-		height: 150px;
+		height: 148px;
 	}
 	.workexperience {
 		font-size: 14px;
-		height: 210px;
+		height: 242px;
 	}
 	.mhe {
 		line-height: 1.1;
@@ -157,11 +155,11 @@ dd.clear {
 	}
 	.education {
 		font-size: 14px;
-		height: 167px;
+		height: 177px;
 	}
 	.hobbies {
 		font-size: 14px;
-		height: 27px;
+		height: 37px;
 	}
 	.hobbies dd{
 		font-size: 14px;
@@ -171,38 +169,73 @@ dd.clear {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px){
 	#page-wrap {
-		width: 600px; 
+		width: 400px; 
+	}
+	h1 { 
+		font-size: 21px;
+	}
+	h2 { 
+		font-size: 13px;
+	}
+	h2 span { 
+		font-size: 14px;
+	}
+	#pic { 
+		float: right; 
+		width: 30%;
+		height: 30%;
+	}
+	p {
+		font-size: 13px;
+	}
+	ul li {
+		font-size: 13px;
 	}
 	.fn {
-		width: 90%;
+		width: 70%;
 	}
 	dd {
-		width: 72%; 	
+		width: 70%; 	
 	}
 	dt {
-		width:24%; 
+		width:29%; 
 		text-align: left;
 	}
 	.contact {
-		width: 100%;
+		width: 80%;
 	}
 	.briefintroduction {
-		width: 80%;
+		width: 60%;
 	}
 	.information {
-		width: 80%;
+		width: 90%;
 	}
 	.skills {
-		height: 150px;
+		font-size: 14px;
+		height: 148px;
 	}
 	.workexperience {
-		height: 210px;
+		font-size: 14px;
+		height: 242px;
+	}
+	.uni {
+		line-height: 1.1;
+    		height: 2.2em;
+	}
+	.htl {
+        	line-height: 1.1;
+    		height: 2.2em;
 	}
 	.education {
-		height: 212px;
+		font-size: 14px;
+		height: 177px;
 	}
 	.hobbies {
-		height: 27px;
+		font-size: 14px;
+		height: 37px;
+	}
+	.hobbies dd{
+		font-size: 14px;
 	}
 } 
 
