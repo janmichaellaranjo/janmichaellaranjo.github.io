@@ -113,10 +113,9 @@ dd.clear {
 		height: 27%;
 	}
 	.fn {
-		width: 60%
+		width: 60%;
 	}
 	dd {
-		float: right; 
 		width: 70%; 	
 	}
 	dt {
@@ -147,12 +146,14 @@ dd.clear {
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 768px){
+	#page-wrap {
+		width: 600px; 
+	}
 	.fn {
-		width: 80%
+		width: 90%;
 	}
 	dd {
-		float: right; 
 		width: 72%; 	
 	}
 	dt {
@@ -160,13 +161,13 @@ dd.clear {
 		text-align: left;
 	}
 	.contact {
-		width: 80%;
+		width: 100%;
 	}
 	.briefintroduction {
 		width: 80%;
 	}
 	.information {
-		width: 60%;
+		width: 80%;
 	}
 	.skills {
 		height: 150px;
@@ -178,69 +179,84 @@ dd.clear {
 		height: 212px;
 	}
 	.hobbies {
-		height: 22px;
+		height: 27px;
 	}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-	.contact {
-		width: 77.419%;
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	#page-wrap {
+		width: 700px; 
 	}
-	.information {
-		width: 77.419%;
+	.fn {
+		width: 100%;
+	}
+	dd {
+		width: 72%; 	
+	}
+	dt {
+		width:24%; 
+		text-align: left;
+	}
+	.contact {
+		width: 100%;
 	}
 	.briefintroduction {
-		width: 77.419%;
+		width: 100%;
 	}
-	.languages {
-		width: 77.419%;
+	.information {
+		width: 100%;
 	}
-	.tools {
-		width: 77.419%;
+	.skills {
+		height: 152px;
 	}
-	.workdescription {
-		width: 77.419%;
+	.workexperience {
+		height: 187px;
 	}
-	.tasks ul li{
-		width: 77.419%;
+	.education {
+		height: 147px;
 	}
-	.unidescription {
-		width: 77.419%;
-	}
-	.highschoolddescription {
-		width: 77.419%;
+	.hobbies {
+		height: 27px;
 	}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-	.contact {
+	#page-wrap {
+		width: 800px; 
+	}
+	.fn {
 		width: 100%;
 	}
-	.information {
+	dd {
+		float: right; 
+		width: 72%; 	
+	}
+	dt {
+		width:24%; 
+		text-align: left;
+	}
+	.contact {
 		width: 100%;
 	}
 	.briefintroduction {
 		width: 100%;
 	}
-	.languages {
+	.information {
 		width: 100%;
 	}
-	.tools {
-		width: 100%;
+	.skills {
+		height: 150px;
 	}
-	.workdescription {
-		width: 100%;
+	.workexperience {
+		height: 210px;
 	}
-	.tasks ul li{
-		width: 100%;
+	.education {
+		height: 212px;
 	}
-	.unidescription {
-		width: 100%;
-	}
-	.highschoolddescription {
-		width: 100%;
+	.hobbies {
+		height: 27px;
 	}
 } 
 
