@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 
-  <title>Jan Michael Laranjo</title>
+  <title>Blog</title>
 
   <meta name="author" content="Jan Michael Laranjo" />
 
@@ -54,19 +54,19 @@
   
 
   
-  <meta property="og:title" content="Jan Michael Laranjo" />
+  <meta property="og:title" content="Blog" />
   
 
    
-  <meta property="og:description" content="Jan Michael Laranjo Email: janmichael_laranjo@hotmail (will be changed soon) I am a computer proogrammer, facing every challenge and always acquiring new knowledge and skills. Skills Languages Java, C++, C, Javascript, MATLAB, Octave Tools Eclipse, IntelliJ, Netbeans, Android Studio, Git, SVN, JUnit, Spring, JPA, Hibernate, D3 Work Experience MHE &amp; Partners...">
+  <meta property="og:description" content="{% for post in site.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
   
 
 
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://localhost:4000/resume" />
-  <link rel="canonical" href="http://localhost:4000/resume" />
+  <meta property="og:url" content="http://localhost:4000/blog" />
+  <link rel="canonical" href="http://localhost:4000/blog" />
   
 
   
@@ -80,11 +80,11 @@
   <meta name="twitter:creator" content="@" />
 
   
-  <meta name="twitter:title" content="Jan Michael Laranjo" />
+  <meta name="twitter:title" content="Blog" />
   
 
   
-  <meta name="twitter:description" content="Jan Michael Laranjo Email: janmichael_laranjo@hotmail (will be changed soon) I am a computer proogrammer, facing every challenge and always acquiring new knowledge and skills. Skills Languages Java, C++, C, Javascript, MATLAB, Octave Tools Eclipse, IntelliJ, Netbeans, Android Studio, Git, SVN, JUnit, Spring, JPA, Hibernate, D3 Work Experience MHE &amp; Partners...">
+  <meta name="twitter:description" content="{% for post in site.posts %} {{ post.title }} {% if post.subtitle %} {{ post.subtitle }} {% endif %} Posted on {{ post.date | date: &quot;%B %-d, %Y&quot; }} {% if post.image %} {% endif %} {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count =...">
   
 
   
@@ -179,102 +179,69 @@
     <!-- TODO this file has become a mess, refactor it -->
 
 
-<div class="intro-header"></div>
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Blog</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
 
 
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+      <div class="posts-list">
+  
+  <article class="post-preview">
+    <a href="/2018-08-31-first-post/">
+	  <h2 class="post-title">First Post</h2>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	  
+	  <h3 class="post-subtitle">
+	    My first post about my intentions for the blog
+	  </h3>
+	  
+    </a>
 
-<head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="../css/resume.css">
-</head>
+    <p class="post-meta">
+      Posted on August 31, 2018
+    </p>
 
-<body>
+    <div class="post-entry-container">
+      
+      <div class="post-entry">
+        Hi. As you have noticed, this is my first blog post and I want to take this moment to introduce myself even though I provided a
+resume. Finally I want to tell you my intentions for this blog and what I want to write about.
 
-    <div id="page-wrap">
 
-        <img src="../img/portrait - 200x200.png" alt="Portrait" id="pic" />
-
-        <div class="contact" id="contact-info" class="vcard">
-
-            <!-- Microformats! -->
-
-            <h1 class="fn">Jan Michael Laranjo</h1>
-
-            <p>
-                Email: <a class="email" href="mailto:janmichael_laranjo@hotmail">janmichael_laranjo@hotmail</a> <font size=2>(will be changed soon)</font>
-            </p>
-        </div>
-
-        <div id="objective">
-            <p class="briefintroduction">
-		I am a computer proogrammer, facing every challenge and always acquiring new knowledge and skills.
-            </p>
-        </div>
-
-        <div class="clear"></div>
-
-	<div class="information">
-        <dl>
-	    <dd class="clear"></dd>
-
-            <dt class="skills">Skills</dt>
-            <dd>
-                <h2>Languages</h2>
-                <p>Java, C++, C, Javascript, MATLAB, Octave</p>
-
-                <h2>Tools</h2>
-                <p>Eclipse, IntelliJ, Netbeans, Android Studio, Git, SVN, JUnit, Spring, JPA, Hibernate, D3</p>
-            </dd>
-
-	    <dd class="clear"></dd>
-
-            <dt class="workexperience">Work Experience</dt>
-            <dd>
-                <h2 class="mhe">MHE & Partners GmbH<span>(2015 - Present)</span></h2>
-		<p>Participated in developing a Datawarehouse tool for managing statistical metadata</p>
-                <ul>
-			<li>Writing & Maintaining test suites for Metadata Datawarehouse application</li>
-			<li>Development of an export wizards for creating a cube in <a class="statcube" href="http://www.statistik.at/web_de/services/statcube/">STATCube</a></li>
-		   	<li>Development of different report systems</li>
-                </ul>
-
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <dt class="education">Education</dt>
-            <dd>
-                <h2 class="uni">University of Technologies Vienna <span>(2014 - Present)</span></h2>
-		<p>Studying "Medieninformatik und Visual Computing" (Bachelor of Science)</p>
-		<h2 class="htl">HTBLuVA Wien Spengergasse <span>(2007 - 2012)</span></h2>
-		<p>Computer Science class with focus on media</p>
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <dt class="hobbies">Hobbies</dt>
-	    <dd>
-            	<p class="hobbieslist">Traveling, Foodie, Freestyle Scootering</p>
-	    </dd>
-
-	    <dd class="clear"></dd>
-        </dl>
-        </div>
-        <div class="clear"></div>
-
+        
+        
+          <a href="/2018-08-31-first-post/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
     </div>
 
-</body>
+    
 
-</html>
+   </article>
+  
+</div>
 
 	    
     </div>
