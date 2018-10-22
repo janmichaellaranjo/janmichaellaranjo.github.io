@@ -7,10 +7,10 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Graphs and UEFA</title>
+        <title>Graphs and UEFA Nations League</title>
         <description>
           Test - 
-          Recently I watched television and I stumbled across some sport report. Nothing special. It was about football and to be precise about the UEFA Nations League”. In short terms there exists four leagues(A, B, C, D) with three or four groupsconsisting of national teams. A is the highest ranked league...
+          Introduction Recently I watched television and I stumbled across some sport report. Nothing special. It was about football and to be precise about the UEFA Nations League”. In short terms there exists four leagues (A, B, C, D) with three or four groups consisting of national teams. A is the...
         </description>
         <pubDate>Thu, 27 Sep 2018 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/2018-09-27-edge-coloring/</link>
