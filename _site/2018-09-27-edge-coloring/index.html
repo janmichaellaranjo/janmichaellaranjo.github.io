@@ -254,8 +254,7 @@ So this problem is ideally suited to solve different scheduling problems.</p>
 
 <h3>NP-Complete</h3>
 <p>How much time does it take to find a optimal edge coloring for any graph that has any <i>chromatic index</i>? The chromatic index is the smallest amounf of
-color of a edge colored graph. Unfortunately this problem is NP-complete. As a certificate you can use the graph
-and colors for each edge. This can be easily checked in linear time, if the coloring is valid. Thus this problem lies in NP. Next we need to reduce a known
+color of a edge colored graph. Unfortunately this problem is NP-complete. As a certificate you can use the graph and colors for each edge. This can be easily checked in linear time, if the coloring is valid. Thus this problem lies in NP. Next we need to reduce a known
 NP-hard problem to the <i>Edge Coloring Problem</i>. For instance we can reduce the <i>3-SAT problem</i>, which is a known NP-complete and is stated as
 followed. Given a set of clauses <script type="math/tex">C=\{C_1, C_2, C_3,...C_l\}</script> and variables <script type="math/tex">u_1, u_2,...u_m</script>, where each clause consists of 3 literals <script type="math/tex">l_{i,1}, l_{i,2},
 l_{i,3}, 1 \leq i \leq l</script>, each clause is connected with an <script type="math/tex">\land</script>-operator and each literal inside a clause with a <script type="math/tex">\vee</script>-operator. Each literal is
@@ -276,8 +275,21 @@ components that have certain tasks to fulfill and informations are transported t
 if the edges have the same color, else the edges have distinct colors.
 //TODO:draw graph</p>
 
-<p>This graph has 5 incoming edges <script type="math/tex">\{a, b, c, d, e\}</script>. If this components is 3-edge-colorable, one of the edge pairs <script type="math/tex">(a,b)</script> or <script type="math/tex">(c,d)</script> have the same
-color and the remaining edges have different colors. This can be easily checked with the above lemma.</p>
+<p>This component has 5 incoming edges <script type="math/tex">\{a, b, c, d, e\}</script>. If this components is 3-edge-colorable, one of the edge pairs <script type="math/tex">(a,b)</script> or <script type="math/tex">(c,d)</script> have the same
+color and the remaining edges have different colors. This can be easily checked with the <i>Parity Condition </i>. If the pairs <script type="math/tex">(a,b)</script> and <script type="math/tex">(c,d)</script>
+are interpreted as input and output, this component changes the <script type="math/tex">truth</script>-value as the input to the <script type="math/tex">false</script>-value and vice versa. So this corresponds to the
+negation.</p>
+
+<p>This next component’s responsibility is to to test the satisfaction. The satisfaction component can only be 3-edge-colored, if the three input edges do not
+represent the <script type="math/tex">false</script>-value.</p>
+
+<p>And finally a variable setting component is needed. This has one pair of edges representing literals <script type="math/tex">u_k</script> and <script type="math/tex">\overline{u_k}</script>.</p>
+<h5>Theorem</h5>
+<p>With the defined components we can finally prove the following theorem. <i>The problem of determining whether a cubic graph has a chromatic index of 3 or 4 is
+NP-complete.</i> (Holyer, 1981)
+For the prove the negation and the satisfaction component are needed. There exists a certificate for the cubic graph, so the problem lies in NP. Given a
+3SAT instance <script type="math/tex">C</script> the goal is to construct a graph <script type="math/tex">G'</script>. So for each variable <script type="math/tex">u_i</script> of the clause <script type="math/tex">C_i</script> a variable setting component is used and for
+each clause a satisfaction component is connected with edges between the satisfaction component and each variable setting component of each clause.</p>
 
       </article>
 
