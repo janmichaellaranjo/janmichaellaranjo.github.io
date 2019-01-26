@@ -28,7 +28,8 @@ partner is fatal.
 The most crucial aspect are group works. If you don't know any group member, you
 have to pray that your partners are reliable. Reliability is the fundament of
 any kind of team or group work. When you have any study partner, you can at
-least count on him. You know his skill sets and what his work ethics are. When you haven't built any network and every time you get assigned to a group you have to pray that your partner is reliable.
+least count on him. You know his skill sets and what his work ethics are. When
+you haven't built any network and you get assigned to a group, you have to pray that your partner is reliable.
 
 Often comes the time where you have several questions or problems that pop up
 successively. When you don't have a fellow, you have to post multiple times in student forums or send multiple emails. This process can be really annoying
@@ -37,9 +38,9 @@ challenging because you don't have the essential different point of view to
 locate the problem.
 
 There comes a time during your studies where your motivation reaches an all time low and you want to quit. It is quite hard to recharge your motivation. It would
-be easier, if you have motivated colleagues that cheer someone up. If you don't
-have the willingness to nudge yourself, the chances are high that the only option
-is dropping out.
+be easier, if you have motivated colleagues who cheer someone up. If you don't
+have the willingness to nudge yourself, the chances are high that the only
+option is dropping out.
 
 <h3>Conclusion</h3>
 As you can see you can try to study alone and be the lone wolf. But I would not
