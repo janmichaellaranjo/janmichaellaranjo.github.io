@@ -1,8 +1,8 @@
-# janlaranjo.github.io
+# janmichaellaranjo.github.io
 This is my [personal website](https://janlaranjo.github.io). The focus of my posts is computer science and university experiences.
 Sometimes I might post about my life. This site is built with *Jekyll*.
 
-##Jekyll Plugins
+## Jekyll Plugins
 Following plugins are currently used:
 
 * [jekyll-paginate](https://jekyllrb.com/docs/pagination/)
