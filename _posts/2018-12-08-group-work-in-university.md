@@ -11,9 +11,11 @@ trouble for any kind of student during their whole academic path. Recently I've
 had a discussion about group projects with a fellow. We talked about how much
 trouble we could have avoided, if we would have had met reliable colleagues at
 the early stage of our study time and stayed in touch or worked as a study
-partner together. I know this is pretty self explanatory but I want to point out this problem because I had so much trouble during my university life and this
+partner together. I know this is pretty self explanatory but I want to point out
+this problem because I had so much trouble during my university life and this
 could have been avoided. In this post I want to illustrate the problem of
-studying alone. My intention is to prevent you from trying to get through your study time by yourself.
+studying alone. My intention is to prevent you from trying to get through your
+study time by yourself.
 
 I think most of you can relate to this kind of situation. For some classes at
 your university you have to work in groups or teams. If you don't have any
