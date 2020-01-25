@@ -7,3 +7,5 @@ gem "github-pages", '163', group: :jekyll_plugins
 gem 'jekyll-paginate'
 
 gem 'jekyll-seo-tag'
+
+gem 'tzinfo-data'
